@@ -6,7 +6,7 @@ const products = [
   {id:1,name:"Elegant Dress",price:45000,category:"women",tag:"NEW",image:""},
   {id:2,name:"Classic Top",price:10000,category:"women",tag:"",image:""},
   {id:3,name:"Wide Leg Trousers",price:60000,category:"women",tag:"TRENDING",image:""},
-  {id:4,name:"Fashion Jacket",price:25000,category:"women",tag:"NEW",image:""},
+  {id:4,name:"PXL_20260922_170820264.jpg",price:25000,category:"women",tag:"NEW",image:""},
   {id:5,name:"Men's Shirt",price:15000,category:"men",tag:"",image:""},
   {id:6,name:"Classic Jeans",price:35000,category:"men",tag:"",image:""}
 {id:7,name:"Black Dress",price:20000,category:"women",tag:"NEW",image:"black-dress.jpg"}
