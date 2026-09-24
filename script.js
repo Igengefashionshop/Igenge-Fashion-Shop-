@@ -9,8 +9,8 @@ const products = [
   {id:4,name:"Fashion Jacket",price:25000,category:"women",tag:"NEW",image:""},
   {id:5,name:"Men's Shirt",price:15000,category:"men",tag:"",image:""},
   {id:6,name:"Classic Jeans",price:35000,category:"men",tag:"",image:""}
+{id:7,name:"Black Dress",price:20000,category:"women",tag:"NEW",image:"black-dress.jpg"}
 ];
-
 let cart = JSON.parse(localStorage.getItem("igengeCart") || "[]");
 
 const money = n => new Intl.NumberFormat("en-US").format(n) + " BIF";
