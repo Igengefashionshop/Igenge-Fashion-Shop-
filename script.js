@@ -1,14 +1,14 @@
 // EDIT THIS NUMBER to your Igenge Fashion Shop WhatsApp number.
 // Use country code, no +, spaces or leading 0. Example Burundi: 2577XXXXXXXX
-const WHATSAPP_NUMBER = "257XXXXXXXX";
+const WHATSAPP_NUMBER = "25766212337";
 
 const products = [
   {id:1,name:"Elegant Dress",price:45000,category:"women",tag:"NEW",image:""},
-  {id:2,name:"Classic Top",price:25000,category:"women",tag:"",image:""},
+  {id:2,name:"Classic Top",price:10000,category:"women",tag:"",image:""},
   {id:3,name:"Wide Leg Trousers",price:60000,category:"women",tag:"TRENDING",image:""},
-  {id:4,name:"Fashion Jacket",price:75000,category:"women",tag:"NEW",image:""},
-  {id:5,name:"Men's Shirt",price:35000,category:"men",tag:"",image:""},
-  {id:6,name:"Classic Jeans",price:60000,category:"men",tag:"",image:""}
+  {id:4,name:"Fashion Jacket",price:25000,category:"women",tag:"NEW",image:""},
+  {id:5,name:"Men's Shirt",price:15000,category:"men",tag:"",image:""},
+  {id:6,name:"Classic Jeans",price:35000,category:"men",tag:"",image:""}
 ];
 
 let cart = JSON.parse(localStorage.getItem("igengeCart") || "[]");
