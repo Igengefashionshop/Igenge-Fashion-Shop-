@@ -3,7 +3,7 @@
 const WHATSAPP_NUMBER = "25766212337";
 
 const products = [
-  {id:1,name:"Elegant Dress",price:45000,category:"women",tag:"NEW",image:""},
+  {id:1,name:"Elegant Dress",price:45000,category:"women",tag:"NEW",image:"PXL_20260922_170820264.jpg"},
   {id:2,name:"Classic Top",price:10000,category:"women",tag:"",image:""},
   {id:3,name:"Screenshot_20260923-210443.jpg",price:60000,category:"women",tag:"TRENDING",image:""},
   {id:4,name:"Women's Dress",price:25000,category:"women",tag:"NEW",image:""},
