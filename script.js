@@ -9,7 +9,7 @@ const products = [
   {id:4,name:"Women's Dress",price:25000,category:"women",tag:"NEW",image:""},
   {id:5,name:"Men's Shirt",price:15000,category:"men",tag:"",image:""},
   {id:6,name:"Classic Jeans",price:35000,category:"men",tag:"",image:""},
-  {id:7,name:"Black Dress",price:20000,category:"women",tag:"NEW",image:"black-dress.jpg"}
+  {id:7,name:"Black Dress",price:20000,category:"women",tag:"NEW",image:"Screenshot_20260923-210443.jpg"}
 ];
 let cart = JSON.parse(localStorage.getItem("igengeCart") || "[]");
 
