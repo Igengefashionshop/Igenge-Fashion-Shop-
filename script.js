@@ -10,7 +10,7 @@ const products = [
     price: 45000,
     category: "women",
     tag: "NEW",
-    image: "",
+    image: "PXL_20260922_170820264.jpg",
     images: [],
     sizes: ["M", "L"]
   },
