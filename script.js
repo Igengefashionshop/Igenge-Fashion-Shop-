@@ -1328,7 +1328,7 @@ document.addEventListener(
             );
 
 
-            renderProducts(
+            loadProductsFromSupabase();
               button.dataset.filter
             );
 
