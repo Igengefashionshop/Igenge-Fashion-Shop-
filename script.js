@@ -1328,9 +1328,7 @@ document.addEventListener(
             );
 
 
-            loadProductsFromSupabase();
-              button.dataset.filter
-            );
+            renderProducts(button.dataset.filter);
 
           }
         );
@@ -1389,7 +1387,7 @@ document.addEventListener(
       );
 
 
-    renderProducts();
+    loadProductsFromSupabase();
 
     updateCart();
 
