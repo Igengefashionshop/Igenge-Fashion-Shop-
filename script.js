@@ -3,6 +3,9 @@
 
 const WHATSAPP_NUMBER = "25766212337";
 
+const SUPABASE_URL = "https://otdycenfglcoedykqztp.supabase.co/rest/v1/";
+const SUPABASE_KEY = "sb_publishable_91PSUTmPq2DqvPchqj54Ew_tCz6iP1I";
+
 const products = [
   {
     id: 1,
