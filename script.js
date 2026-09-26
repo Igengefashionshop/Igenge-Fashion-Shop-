@@ -8,6 +8,42 @@ const SUPABASE_KEY = "sb_publishable_91PSUTmPq2DqvPchqj54Ew_tCz6iP1I";
 
 const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
+async function loadProductsFromSupabase() {
+  const { data, error } = await supabaseClient
+    .from("products")
+    .select("*")
+    .order("id", { ascending: true });
+
+  if (error) {
+    console.error("Supabase products error:", error);
+    return;
+  }
+
+  if (data && data.length > 0) {
+    products.length = 0;
+    products.push(...data.map(p => ({
+      id: p.id,
+      name: p.name,
+      price: Number(p.price || 0),
+      category: p.category || "women",
+      tag: "",
+      image: "",
+      images: [],
+      sizes: p.sizes
+        ? p.sizes.split(",").map(x => x.trim()).filter(Boolean)
+        : [],
+      colors: p.colors
+        ? p.colors.split(",").map(x => x.trim()).filter(Boolean)
+        : [],
+      description: p.description || "",
+      stock: Number(p.stock || 0),
+      status: p.status || "available"
+    })));
+  }
+
+  renderProducts();
+}
+
 const products = [
   {
     id: 1,
